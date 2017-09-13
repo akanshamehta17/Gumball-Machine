@@ -33,8 +33,6 @@ public class GumballMachine {
                  total_cost+= coin;
                  if(total_cost==cost_gumball)	
                     state.insertMoney();
-		 else
-	            state = noMoneyState;
                 }
                 else
                  System.out.println("Invalid Coin");    
